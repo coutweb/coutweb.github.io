@@ -1,0 +1,197 @@
+*{
+margin: 0;
+padding: 0;
+}
+.bodyfire{
+	width: 100%;
+	height:1800px;
+	position: absolute;
+	background: url(../img/bgfire.jpg) repeat-y ;
+}
+.bodyrgb{
+	width: 100%;
+	height:1800px;
+	position: absolute;
+	background: url(../img/bgrgb.jpg) repeat-y;
+}
+
+body{
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 25px;
+	background-color: #29303b;
+	width: 100%;
+	height:100%;
+	background: url(../img/bg1.jpg) repeat ;
+
+}
+a{
+	color:#FF4500	;
+	text-decoration: none;
+}
+img{
+	margin: 0 auto;
+}
+.toptext{
+	margin: 205px 0 auto;
+}
+/*All DIVs*/
+.holst{
+	margin:0 auto;
+	width: 1200px;
+	height: 1300px;
+	position: relative;
+}
+.holstindex{
+	margin:0 auto;
+	width: 1200px;
+	height: 900px;
+	position: relative;
+}
+.allcontent{
+	width: 1200px;
+	height: 1300px;
+	margin:auto;
+}
+.allcontentindex{
+	width: 100%;
+	height: 100%;
+	margin:auto;
+}
+.text{
+	padding-bottom: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.fire{
+	margin: 0 auto;
+	width: 940px;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+.left{
+
+	margin: 0;
+	padding: 0;
+	width: 450px;
+	height: 300px;
+	display: block;
+}
+.right{
+	margin: 0;
+	padding: 0;
+	width: 450px;
+	height: 300px;
+	display: flex;
+}
+.title{
+	width: 100%;
+	height: 65px;
+}
+.dicription{
+	width: 100%;
+	height: 235px;
+}
+.rgb{
+	margin: 0 auto;
+	width: 940px;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/*Barnner*/
+
+.banner{
+	margin: auto;
+	position: absolute;
+}
+
+.banner:hover{
+	filter: blur(3px);
+	transition: all 0.2s ease-out;
+}
+
+
+.bannertext1{
+	margin: auto;
+	display: block;
+	z-index: 1;
+	pointer-events: none;
+}
+.bannertext2{
+	margin: auto;
+	z-index: 1;
+	pointer-events: none;
+}
+
+/*Fire*/
+
+.logofire{
+	margin-top: 205px;
+	width: 1200px;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+}
+
+.textblock{
+	width: 940px;
+	height:30px;
+	text-align: center;
+}
+.doublediv{
+	margin: 0 ;
+	width: 1200px;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+
+	margin-bottom: 20px;
+}
+.videoblock{
+	display: flex;
+	justify-content: space-around;
+}
+.video{
+	margin-left: 17.5px;
+	margin-right: 17.5px;
+	outline: none;
+	box-shadow: 0 0 15px rgb(0,0,0);
+}
+.double{
+	width: 940px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.titletext{
+	width:1200px;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top:15px;
+	margin-bottom: 15px;
+	text-align: left;
+	text-align: center;
+}
+
+.rightf{
+
+}
+.leftf{
+
+}
+.video1{
+	margin: 0 auto;
+	outline: none;
+	box-shadow: 0 0 15px rgb(0,0,0);
+}
+
+/*RGB*/
+.rgbtext{
+	color:#4067E9;
+}
